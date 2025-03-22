@@ -1,17 +1,16 @@
 {
-  "name": "jsonserver",
+  "name": "pupapiserver",
   "version": "1.0.0",
+  "description": "custom json-api server",
   "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "cors": "^2.8.5",
-    "json-server": "^0.17.3"
+    "json-server": "^0.17.3",
+    "nodemon": "^3.1.9"
   }
 }
