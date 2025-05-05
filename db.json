@@ -1,19 +1,173 @@
 {
-  "users": [
+  "candidates": [
     {
-      "id": "7bad",
-      "name": "Bishal",
-      "username": "bishal",
-      "email": "shmhs@mail.com",
-      "password": "bisal"
+      "id": "3",
+      "name": "Suraj Tamang",
+      "phone": "9801234567",
+      "email": "suraj@example.com",
+      "technology": "DevOps",
+      "level": "Senior",
+      "experience": "5",
+      "expectedSalary": "Rs 120,000",
+      "interviewStatus": "Second Interview Complete",
+      "references": "Pratik Gurung",
+      "notes": "Expert in AWS, Docker, and Kubernetes"
     },
-
     {
-      "id": "f023",
-      "name": "Ram",
-      "username": "ram",
-      "email": "shmhs@mail.com",
-      "password": "ram"
+      "id": "8c48",
+      "name": "Rahul Singh",
+      "phone": "9801234567",
+      "email": "rahul@gmail.com",
+      "technology": "ReactJS",
+      "level": "Junior",
+      "experience": "1",
+      "expectedSalary": "Rs 120,000",
+      "interviewStatus": "Hired",
+      "references": "Bishal Dhakal",
+      "notes": "Pro react develover",
+      "cv": "AN intern Report sijan_1.docx"
+    },
+    {
+      "id": "1d2b",
+      "name": "Bishal dhakal",
+      "phone": "9865369089",
+      "email": "rahul@gmail.com",
+      "technology": "ReactJS",
+      "level": "Junior",
+      "experience": "1",
+      "expectedSalary": "Rs 30,000",
+      "interviewStatus": "Shortlisted",
+      "cv": "CV Manager SRS.docx",
+      "references": "Roshan Poudel",
+      "notes": "new candidatee"
+    },
+    {
+      "id": "6477",
+      "name": "Bishal Dhakal",
+      "phone": "9801234567",
+      "email": "ram@gmail.com",
+      "technology": "DevOps",
+      "level": "Junior",
+      "experience": "1",
+      "expectedSalary": "30000",
+      "interviewStatus": "Shortlisted",
+      "cv": "TU Evaluation for Internship (1).pdf",
+      "references": "Anil Sharma",
+      "notes": "new "
+    },
+    {
+      "id": "18a0",
+      "name": "Sijan Pandey",
+      "phone": "9846123456",
+      "email": "sijan@gmail.com",
+      "technology": "QA",
+      "level": "Junior",
+      "experience": "1",
+      "expectedSalary": "30000",
+      "interviewStatus": "Shortlisted",
+      "cv": "Bishal_Dhakal_CV_Revised.docx",
+      "references": "Bishal Dhakal",
+      "notes": "okey"
+    }
+  ],
+  "assessments": [
+    {
+      "id": "ca3a",
+      "title": "Frontend Task",
+      "description": "Create beautiful responsive ui",
+      "candidateId": "3"
+    },
+    {
+      "id": "bc5b",
+      "title": "Backend Task",
+      "description": "Create complete mode for eccomerce site",
+      "candidateId": "18a0"
+    }
+  ],
+  "evaluations": [
+    {
+      "id": "1",
+      "candidateId": 1,
+      "behavioralRemarks": "Good communication skills, works well in a team",
+      "technicalRemarks": "Strong understanding of React fundamentals, needs improvement in state management",
+      "date": "2025-06-10"
+    },
+    {
+      "id": "2",
+      "candidateId": 2,
+      "behavioralRemarks": "Professional attitude, excellent problem-solving approach",
+      "technicalRemarks": "Proficient in .NET Core, good database design skills",
+      "date": "2025-06-12"
+    },
+    {
+      "id": "46e9",
+      "candidateId": "8c48",
+      "behavioralRemarks": "good communication works",
+      "technicalRemarks": "problem solving nice\n",
+      "date": "2025-04-25"
+    }
+  ],
+  "offerTemplates": [
+    {
+      "id": "1",
+      "title": "Junior Developer Offer",
+      "content": "Dear {{name}},\n\nWe are pleased to offer you the position of {{position}} at our company with a salary of {{salary}}.\n\nPlease let us know your decision within 7 days.\n\nRegards,\nHR Department"
+    },
+    {
+      "id": "2",
+      "title": "Senior Developer Offer",
+      "content": "Dear {{name}},\n\nWe are delighted to offer you the senior position of {{position}} at our company with a salary of {{salary}} and additional benefits.\n\nPlease let us know your decision within 7 days.\n\nRegards,\nHR Department"
+    }
+  ],
+  "interviewSchedules": [
+    {
+      "id": "1",
+      "candidateId": 1,
+      "date": "2025-06-15T10:00:00",
+      "interviewers": ["Rohit Sharma", "Anisha KC"],
+      "notes": "Technical interview for frontend position"
+    },
+    {
+      "id": "2",
+      "candidateId": 2,
+      "date": "2025-06-16T14:30:00",
+      "interviewers": ["Dipesh Acharya", "Suman Thapa"],
+      "notes": "Second technical interview"
+    },
+    {
+      "id": "51c5",
+      "candidateId": "8c48",
+      "date": "2025-04-29T23:18:00.000Z",
+      "interviewers": ["Bishal Dhakal"],
+      "notes": "ramro sanga padera aauni\n"
+    },
+    {
+      "id": "2cfd",
+      "candidateId": null,
+      "date": "2025-04-24T10:29:10.433Z",
+      "interviewers": ["Bishal Dhakal"],
+      "notes": ""
+    },
+    {
+      "id": "fc92",
+      "candidateId": "8c48",
+      "date": "2025-04-24T18:15:00.000Z",
+      "interviewers": ["Bishal Dhakal"],
+      "notes": "be reay"
+    },
+    {
+      "id": "99ab",
+      "candidateId": "3",
+      "date": "2025-04-24T14:05:10.566Z",
+      "interviewers": ["Bishal Dhakal"],
+      "notes": "okey cha ta"
+    },
+    {
+      "id": "5481",
+      "candidateId": null,
+      "date": "2025-04-28T18:15:00.000Z",
+      "interviewers": ["Rahul singh"],
+      "notes": "about new ji=oin"
     }
   ]
 }
